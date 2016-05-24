@@ -1,0 +1,5 @@
+# Starts a trajectory on the robot
+
+int32 robotid
+Trajectory trajectory
+---
