@@ -1,0 +1,14 @@
+ros-indigo-openrave-planning (0.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Tue, 24 May 2016 15:00:00 -0000
+
+ros-indigo-openrave-planning (0.0.1-0trusty) trusty; urgency=high
+
+  * update openrave/collada_robots package to catkin
+  * Contributors: Kei Okada
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Tue, 24 May 2016 15:00:00 -0000
+
+
