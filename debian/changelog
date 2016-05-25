@@ -1,8 +1,0 @@
-ros-indigo-arm-navigation-msgs (0.0.1-0trusty) trusty; urgency=high
-
-  * add arm_navigation_msgs
-  * Contributors: Kei Okada
-
- -- Devon Ash <dash@clearpathrobotics.com>  Tue, 24 May 2016 15:00:00 -0000
-
-
