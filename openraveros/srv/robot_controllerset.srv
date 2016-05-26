@@ -1,0 +1,11 @@
+# Sets a new robot controller and destroys the old.
+
+int32 robotid
+
+# name used to query a controller
+string controllername
+
+int32[] indices
+int32 controltransformation
+
+---
