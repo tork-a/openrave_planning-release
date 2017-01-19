@@ -1,3 +1,0 @@
-<launch>
-  <node pkg="openraveros_tutorials" type="openraverosserver.py" name="openraveserver" output="screen"/>
-</launch>

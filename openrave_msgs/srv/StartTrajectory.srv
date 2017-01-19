@@ -1,9 +1,0 @@
-## Starts a trajectory
-openrave_msgs/JointTrajectory traj
-uint8 hastiming # if 1, use timestamps of trajectory points, otherwise do internal retiming
-uint8 requestresult # if 1, send back the trajectory that the robot actually moved to, this makes the command blocking
-
----
-openrave_msgs/JointTrajectory traj # returned trajectory if requested
-time stamp # expected time when robot will start trajectory (if non-blocking)
-uint32 commandid
