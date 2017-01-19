@@ -1,5 +1,0 @@
-rosbuild_add_library(robot_control robotcontrolmain.cpp)
-rosbuild_link_boost(robot_control thread)
-
-rosbuild_add_executable(tfsender tfsender.cpp)
-rosbuild_add_executable(simulationserver simulationserver.cpp)
