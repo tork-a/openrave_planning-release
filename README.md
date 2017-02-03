@@ -1,3 +1,30 @@
+## openrave_planning (indigo) - 0.0.5-0
+
+The packages in the `openrave_planning` repository were released into the `indigo` distro by running `/usr/bin/bloom-release openrave_planning --rosdistro indigo --track indigo` on `Fri, 03 Feb 2017 08:10:27 -0000`
+
+These packages were released:
+- `arm_navigation_msgs`
+- `collada_robots`
+- `openrave`
+- `openrave_planning`
+
+Version of package(s) in repository `openrave_planning`:
+
+- upstream repository: https://github.com/jsk-ros-pkg/openrave_planning.git
+- release repository: https://github.com/tork-a/openrave_planning-release.git
+- rosdistro version: `0.0.4-0`
+- old version: `0.0.4-0`
+- new version: `0.0.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## openrave_planning (indigo) - 0.0.4-0
 
 The packages in the `openrave_planning` repository were released into the `indigo` distro by running `/usr/bin/bloom-release openrave_planning --track indigo -r indigo` on `Thu, 19 Jan 2017 10:52:07 -0000`
