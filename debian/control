@@ -1,0 +1,13 @@
+Source: ros-indigo-openrave-planning
+Section: misc
+Priority: extra
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-openrave-planning
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-collada-robots, ros-indigo-openrave
+Description: This stack offers OpenRAVE-related bindings.
+ Maintained by the JSK lab at University of Tokyo.
