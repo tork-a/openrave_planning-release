@@ -1,5 +1,0 @@
-# sets the active manipulator
-
-int32 robotid
-string manip
----

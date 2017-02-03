@@ -1,1 +1,0 @@
-ConfigurationSpecificationGroup[] groups
