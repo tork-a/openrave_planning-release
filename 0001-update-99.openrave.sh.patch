@@ -1,0 +1,28 @@
+From f2d7bb2df4a36c75e447eed3c620ad83af34f3c2 Mon Sep 17 00:00:00 2001
+From: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Date: Wed, 15 Feb 2017 09:55:21 +0900
+Subject: [PATCH] update 99.openrave.sh
+
+---
+ env-hooks/99.openrave.sh.in | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+diff --git a/env-hooks/99.openrave.sh.in b/env-hooks/99.openrave.sh.in
+index c699367..d83972e 100644
+--- a/env-hooks/99.openrave.sh.in
++++ b/env-hooks/99.openrave.sh.in
+@@ -1,5 +1,10 @@
++# check if we can use openrave-config
+ openrave-config --prefix >> /dev/null 2>&1
+ if [ "$?" -eq "0" ] ; then
+-    export PYTHONPATH=$(openrave-config --python-dir):$PYTHONPATH
++    # if we can run import openravepy, we do not have to do anything
++    python -c 'import openravepy' >> /dev/null 2>&1
++    if [ "$?" -ne "0" ]; then
++        export PYTHONPATH=$(openrave-config --python-dir):$PYTHONPATH
++    fi
+ fi
+ 
+-- 
+1.9.1
+
