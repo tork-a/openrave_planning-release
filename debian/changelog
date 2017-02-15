@@ -1,0 +1,32 @@
+ros-indigo-arm-navigation-msgs (0.0.5-1saucy) saucy; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Thu, 02 Feb 2017 15:00:00 -0000
+
+ros-indigo-arm-navigation-msgs (0.0.4-1saucy) saucy; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Wed, 18 Jan 2017 15:00:00 -0000
+
+ros-indigo-arm-navigation-msgs (0.0.3-1saucy) saucy; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Thu, 26 May 2016 15:00:00 -0000
+
+ros-indigo-arm-navigation-msgs (0.0.2-1saucy) saucy; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Tue, 24 May 2016 15:00:00 -0000
+
+ros-indigo-arm-navigation-msgs (0.0.1-1saucy) saucy; urgency=high
+
+  * add arm_navigation_msgs
+  * Contributors: Kei Okada
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Tue, 24 May 2016 15:00:00 -0000
+
+
