@@ -1,0 +1,38 @@
+ros-indigo-openrave (0.0.5-1saucy) saucy; urgency=high
+
+  * re-enable opende in package.xml
+  * 99.openarve.sh.in: openrave-config is now global executive
+  * use production release of Jan/19/2017
+  * Contributors: Kei Okada
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Thu, 02 Feb 2017 15:00:00 -0000
+
+ros-indigo-openrave (0.0.4-1saucy) saucy; urgency=high
+
+  * use dist-packages as python install dir instad of site-packages
+  * Contributors: Kei Okada
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Wed, 18 Jan 2017 15:00:00 -0000
+
+ros-indigo-openrave (0.0.3-1saucy) saucy; urgency=high
+
+  * CMakeLists.txt : fix compiile scheme for install/devel
+  * Contributors: Kei Okada
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Thu, 26 May 2016 15:00:00 -0000
+
+ros-indigo-openrave (0.0.2-1saucy) saucy; urgency=high
+
+
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Tue, 24 May 2016 15:00:00 -0000
+
+ros-indigo-openrave (0.0.1-1saucy) saucy; urgency=high
+
+  * add 99.openrave.sh
+  * update openrave/collada_robots package to catkin
+  * Contributors: Kei Okada
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Tue, 24 May 2016 15:00:00 -0000
+
+

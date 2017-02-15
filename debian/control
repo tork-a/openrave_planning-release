@@ -1,0 +1,12 @@
+Source: ros-indigo-openrave
+Section: misc
+Priority: extra
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 9.0.0), collada-dom-dev, ffmpeg, git-core, ipython, libassimp-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libboost-all-dev, libbullet-dev, libglew-dev, liblapack-dev, libode-dev, libogg-dev, libpcre++-dev, libpcre3-dev, libqhull-dev, libqt4-dbus, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4, libsoqt4-dev, libswscale-dev, libx264-dev, python-dev, python-h5py, python-numpy, python-scipy, python-sympy, ros-indigo-catkin, ros-indigo-collada-robots, ros-indigo-std-msgs, zlib1g-dev
+Homepage: http://openrave.org
+Standards-Version: 3.9.2
+
+Package: ros-indigo-openrave
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, collada-dom-dev, ffmpeg, ipython, libassimp-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libboost-all-dev, libbullet-dev, libglew-dev, liblapack-dev, libode-dev, libogg-dev, libpcre++-dev, libpcre3-dev, libqhull-dev, libqt4-dbus, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4, libsoqt4-dev, libswscale-dev, libx264-dev, python-dev, python-h5py, python-numpy, python-scipy, python-sympy, ros-indigo-collada-robots, ros-indigo-std-msgs, zlib1g-dev
+Description: In order to use, please add the following line in your bashrc:
