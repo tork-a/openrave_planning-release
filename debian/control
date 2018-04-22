@@ -1,0 +1,12 @@
+Source: ros-kinetic-arm-navigation-msgs
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-trajectory-msgs
+Homepage: http://ros.org/wiki/arm_navigation_msgs
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-arm-navigation-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib-msgs, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-trajectory-msgs
+Description: arm_navigation_msgs
