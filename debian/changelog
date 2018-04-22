@@ -1,0 +1,55 @@
+ros-kinetic-openrave (0.0.6-0jessie) jessie; urgency=high
+
+  * Merge pull request #20 <https://github.com/jsk-ros-pkg/openrave_planning/issues/20> from k-okada/master
+    update  openrave package as of 2017/02/19
+  * remove collada_robots from build_depend
+  * update openrave to Feb/19/2018 versoin, which does not require sympy==0.7.1, as described in https://github.com/rdiankov/openrave/issues/375#issuecomment-155994724
+  * Merge pull request #18 <https://github.com/jsk-ros-pkg/openrave_planning/issues/18> from k-okada/fix_catkin_source
+    do not import openravepy if it working... need to this when deb settings
+  * do not import openravepy if it working... need to this when deb settings
+  * Merge pull request #17 <https://github.com/jsk-ros-pkg/openrave_planning/issues/17> from k-okada/add_travis_kinetic
+    run all test within docker, specially for kinetic
+  * compile openrave with -Wno-deprecated
+  * add libxml2
+  * Contributors: Kei Okada
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Sat, 21 Apr 2018 15:00:00 -0000
+
+ros-kinetic-openrave (0.0.5-0jessie) jessie; urgency=high
+
+  * re-enable opende in package.xml
+  * 99.openarve.sh.in: openrave-config is now global executive
+  * use production release of Jan/19/2017
+  * Contributors: Kei Okada
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Thu, 02 Feb 2017 15:00:00 -0000
+
+ros-kinetic-openrave (0.0.4-0jessie) jessie; urgency=high
+
+  * use dist-packages as python install dir instad of site-packages
+  * Contributors: Kei Okada
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Wed, 18 Jan 2017 15:00:00 -0000
+
+ros-kinetic-openrave (0.0.3-0jessie) jessie; urgency=high
+
+  * CMakeLists.txt : fix compiile scheme for install/devel
+  * Contributors: Kei Okada
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Thu, 26 May 2016 15:00:00 -0000
+
+ros-kinetic-openrave (0.0.2-0jessie) jessie; urgency=high
+
+
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Tue, 24 May 2016 15:00:00 -0000
+
+ros-kinetic-openrave (0.0.1-0jessie) jessie; urgency=high
+
+  * add 99.openrave.sh
+  * update openrave/collada_robots package to catkin
+  * Contributors: Kei Okada
+
+ -- Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>  Tue, 24 May 2016 15:00:00 -0000
+
+
