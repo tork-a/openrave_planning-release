@@ -1,0 +1,13 @@
+Source: ros-kinetic-collada-robots
+Section: misc
+Priority: extra
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 9.0.0), git-core, ros-kinetic-catkin, unzip
+Homepage: http://www.openrave.org/en/main/robots.html
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-collada-robots
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: COLLADA 1.5 Robot Models Repository This repository is associated with the Open Robotics Automation Virtual Environment (OpenRAVE).
+ The open and view them, install OpenRAVE and execute: openrave XXX.zae The robots are augmented with information as described by the &quot;OpenRAVE&quot; profile here: http://openrave.programmingvision.com/index.php/Started:COLLADA *.zae files are zip archives which contain the raw collada 1.5 xml (dae).
