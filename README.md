@@ -1,3 +1,30 @@
+## openrave_planning (kinetic) - 0.0.6-0
+
+The packages in the `openrave_planning` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release openrave_planning --track kinetic --rosdistro kinetic` on `Sun, 22 Apr 2018 05:04:14 -0000`
+
+These packages were released:
+- `arm_navigation_msgs`
+- `collada_robots`
+- `openrave`
+- `openrave_planning`
+
+Version of package(s) in repository `openrave_planning`:
+
+- upstream repository: https://github.com/jsk-ros-pkg/openrave_planning.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.6-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## openrave_planning (indigo) - 0.0.5-0
 
 The packages in the `openrave_planning` repository were released into the `indigo` distro by running `/usr/bin/bloom-release openrave_planning --rosdistro indigo --track indigo` on `Fri, 03 Feb 2017 08:10:27 -0000`
