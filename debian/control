@@ -1,0 +1,12 @@
+Source: ros-kinetic-openrave
+Section: misc
+Priority: extra
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 9.0.0), git-core, ipython, libassimp-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libboost-all-dev, libbullet-dev, libcollada-dom2.4-dp-dev, libglew-dev, liblapack-dev, libode-dev, libogg-dev, libpcre++-dev, libpcre3-dev, libqhull-dev, libqt4-dbus, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4, libsoqt4-dev, libswscale-dev, libx264-dev, libxml2-dev, python-dev, python-h5py, python-numpy, python-scipy, python-sympy, ros-kinetic-catkin, ros-kinetic-std-msgs, zlib1g-dev
+Homepage: http://openrave.org
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-openrave
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ipython, libassimp-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libboost-all-dev, libbullet-dev, libcollada-dom2.4-dp-dev, libglew-dev, liblapack-dev, libode-dev, libogg-dev, libpcre++-dev, libpcre3-dev, libqhull-dev, libqt4-dbus, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4, libsoqt4-dev, libswscale-dev, libx264-dev, python-dev, python-h5py, python-numpy, python-scipy, python-sympy, ros-kinetic-collada-robots, ros-kinetic-std-msgs, zlib1g-dev
+Description: In order to use, please add the following line in your bashrc:
